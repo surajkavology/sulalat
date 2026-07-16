@@ -714,6 +714,7 @@ input:focus, select:focus,textarea:focus{
 
 .partner-section .section-title {
     margin-bottom: 40px;
+    margin-inline: 0;
 }
 
 .partner-image img{
@@ -722,7 +723,6 @@ input:focus, select:focus,textarea:focus{
     display:block;
     object-fit:cover;
 }
-
 
 .partner-content p {
     color: var(--sub-title-clr);
@@ -736,7 +736,6 @@ input:focus, select:focus,textarea:focus{
 .partner-content .primary-btn {
     margin-top: 40px;
 }
-
 
 /* partner-section end  */
 /* coffee-shop section start  */
