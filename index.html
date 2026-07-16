@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Sulalat</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-top">
+                <div class="header-search">
+                    <select>
+                        <option value="volvo">All</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <div class="divider"></div>
+                    <div class="search-feild">
+                        <input type="text" id="search" placeholder="Search for products">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <path
+                                d="M16.75 16.75L12.9278 12.9278M14.9722 7.86111C14.9722 11.7885 11.7885 14.9722 7.86111 14.9722C3.93375 14.9722 0.75 11.7885 0.75 7.86111C0.75 3.93375 3.93375 0.75 7.86111 0.75C11.7885 0.75 14.9722 3.93375 14.9722 7.86111Z"
+                                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/site-logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="header-contact">
+                    <p>العربية</p>
+                    <div class="cart-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="21" viewBox="0 0 19 21" fill="none">
+                            <path
+                                d="M18 4.8V18.1C18 18.6039 17.801 19.0872 17.4468 19.4435C17.0925 19.7998 16.6121 20 16.1111 20H2.88889C2.38792 20 1.90748 19.7998 1.55324 19.4435C1.19901 19.0872 1 18.6039 1 18.1V4.8L3.83333 1H15.1667L18 4.8ZM1 4.8H18M13.2778 8.6C13.2778 9.60782 12.8798 10.5744 12.1713 11.287C11.4628 11.9996 10.5019 12.4 9.5 12.4C8.49807 12.4 7.53718 11.9996 6.82871 11.287C6.12024 10.5744 5.72222 9.60782 5.72222 8.6"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="profile-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20" fill="none">
+                            <path
+                                d="M17 19C17 16.2386 13.4183 14 9 14C4.58172 14 1 16.2386 1 19M9 11C6.23858 11 4 8.76142 4 6C4 3.23858 6.23858 1 9 1C11.7614 1 14 3.23858 14 6C14 8.76142 11.7614 11 9 11Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+            <div class="header-bottom">
+                <nav>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Solutions</a></li>
+                        <li><a href="#">Our Initiatives</a></li>
+                        <li><a href="#">Experience Sulalat</a></li>
+                        <li class="mega-menu">
+                            <a href="#">Shop <i class="ri-arrow-down-s-line"></i></a>
+                            <div class="mega-dropdown">
+                                <div class="mega-container">
+                                    <div class="mega-column">
+                                        <h4>Specialty Coffee</h4>
+                                        <ul>
+                                            <li><a href="#">Single Origin</a></li>
+                                            <li><a href="#">Coffee Blends</a></li>
+                                            <li><a href="#">Saudi Specialty Coffee</a></li>
+                                            <li><a href="#">Auctions Coffee</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-column">
+                                        <h4>Brewing Tools</h4>
+                                        <ul>
+                                            <li><a href="#">Drippers</a></li>
+                                            <li><a href="#">Grinders</a></li>
+                                            <li><a href="#">Saudi Specialty Coffee</a></li>
+                                            <li><a href="#">Auctions Coffee</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega-column">
+                                        <h4>Spare Parts</h4>
+                                        <ul>
+                                            <li><a href="#">Filters</a></li>
+                                            <li><a href="#">Accessories</a></li>
+                                            <li><a href="#">Saudi Specialty Coffee</a></li>
+                                            <li><a href="#">Auctions Coffee</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Insights</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <!-- ======== site Banner Start ========= -->
+        <section class="site-banner">
+            <div class="banner-bg-img">
+                <img src="assets/images/site-banner.png" alt="banner-bg-img">
+            </div>
+            <div class="banner-warp">
+                <div class="container">
+                    <h1>The Art of <br>
+                        Saudi Specialty Coffee</h1>
+                    <div class="banner-btm">
+                        <div class="banner-cards">
+                            <div class="banner-card">
+                                <h4>For Coffee Enthusiasts</h4>
+                                <p>As a Saudi pioneer, Sulalat sources, roasts, and delivers world-class coffee,
+                                    chocolate, and café solutions with uncompromising quality and safety.</p>
+                                <div class="banner-card-img">
+                                    <a href="#">
+                                        <img src="assets/images/banner-card-1.png" alt="banner-card-1">
+                                        <div class="navi">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="24"
+                                                viewBox="0 0 44 24" fill="none">
+                                                <rect x="0.5" y="0.5" width="43" height="23" rx="11.5" stroke="white" />
+                                                <g clip-path="url(#clip0_2101_653)">
+                                                    <path d="M22 7.28589L26.714 11.9999L22 16.714" stroke="white"
+                                                        stroke-width="1.33333" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M17.286 11.9999H26.714" stroke="white"
+                                                        stroke-width="1.33333" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_2101_653">
+                                                        <rect x="22" y="0.686279" width="16" height="16" rx="8"
+                                                            transform="rotate(45 22 0.686279)" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            Shop Now
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="banner-card">
+                                <h4>For Business Partners</h4>
+                                <p>Running a café, hotel, or distribution business? Partner with Sulalat for scalable
+                                    wholesale solutions and trusted supply.</p>
+                                <div class="banner-card-img">
+                                    <a href="#">
+                                        <img src="assets/images/banner-card-2.png" alt="banner-card-2">
+                                        <div class="navi">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="24"
+                                                viewBox="0 0 44 24" fill="none">
+                                                <rect x="0.5" y="0.5" width="43" height="23" rx="11.5" stroke="white" />
+                                                <g clip-path="url(#clip0_2101_653)">
+                                                    <path d="M22 7.28589L26.714 11.9999L22 16.714" stroke="white"
+                                                        stroke-width="1.33333" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M17.286 11.9999H26.714" stroke="white"
+                                                        stroke-width="1.33333" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_2101_653">
+                                                        <rect x="22" y="0.686279" width="16" height="16" rx="8"
+                                                            transform="rotate(45 22 0.686279)" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            Shop Now
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scroll-btm">
+                            <a href="#">
+                                <span>Scroll</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"
+                                    fill="none">
+                                    <path d="M24.0352 18.1421L18.1426 24.0346L12.25 18.1421" stroke="white"
+                                        stroke-opacity="0.6" stroke-width="1.70708" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M18.1426 12.2495V24.0346" stroke="white" stroke-opacity="0.6"
+                                        stroke-width="1.70708" stroke-linecap="round" stroke-linejoin="round" />
+                                    <circle cx="18" cy="18" r="17.55" stroke="white" stroke-opacity="0.6"
+                                        stroke-width="0.900003" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== site Banner End ========= -->
+
+        <!-- ======== About Section Start ========= -->
+        <section class="about-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>
+                        Shaping Exceptional Coffee Experiences Through
+                        <span>Passion and Precision</span>
+                    </h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-left">
+                        <div class="swiper leftSwiper">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <img src="assets/images/aboiut-img-1.png" alt="aboiut-img-1">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/images/aboiut-img-1.png" alt="aboiut-img-1">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/images/aboiut-img-1.png" alt="aboiut-img-1">
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="about-content">
+                            <h3>
+                                Driven by Excellence
+                                <span>Crafted for You</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="about-right">
+                        <div class="swiper rightSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="assets/images/aboiut-img-2.png" alt="aboiut-img-2">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/images/aboiut-img-2.png" alt="aboiut-img-2">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/images/aboiut-img-2.png" alt="aboiut-img-2">
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Sulalat is a Saudi pioneer in specialty coffee,
+                                artisanal chocolate, gelato, and innovative cafe
+                                solutions.
+                            </p>
+                            <p>
+                                With ISO-certified roasting, private-label services,
+                                and premium equipment distribution, we empower
+                                professionals and enthusiasts alike to create
+                                world-class experiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== About Section End ========= -->
+        <!-- ======== Collections Section Start ========= -->
+        <section class="categories-sec">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Your All-in-One Partner in Excellence</h2>
+                    <p>
+                        Sulalat delivers end-to-end solutions for cafes,
+                        coffee chains, and enthusiasts alike.
+                    </p>
+                </div>
+                <div class="swiper categorySlider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="category-card">
+                                <a href="#">
+                                    <div class="category-img">
+                                        <img src="assets/images/category-1.png" alt="category-1">
+                                    </div>
+                                    <h4>Specialty Coffee</h4>
+                                    <p>World-Class Specialty Coffee.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-card">
+                                <a href="#">
+                                    <div class="category-img">
+                                        <img src="assets/images/category-2.png" alt="category-2">
+                                    </div>
+                                    <h4>Craft Chocolate</h4>
+                                    <p>Artisanal Bean-to-Bar Chocolate.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-card">
+                                <a href="#">
+                                    <div class="category-img">
+                                        <img src="assets/images/category-3.png" alt="category-3">
+                                    </div>
+                                    <h4>Artisan Gelato</h4>
+                                    <p>Authentic Italian Gelato.</p>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-card">
+                                <a href="#">
+                                    <div class="category-img">
+                                        <img src="assets/images/category-4.png" alt="category-4">
+                                    </div>
+                                    <h4>Equipment</h4>
+                                    <p>Premium Equipment & Tools.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-card">
+                                <a href="#">
+                                    <div class="category-img">
+                                        <img src="assets/images/category-5.png" alt="category-5">
+                                    </div>
+                                    <h4>Manufacturing</h4>
+                                    <p>Sulalat's production capabilities.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="view-all">
+                                <a href="#">
+                                    <h4>Discover <br>
+                                        Everything We Offer</h4>
+                                    <span>View All Products <i class="ri-arrow-right-up-line"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== Collections Section End ========= -->
+        <!-- ======== Certifications Section Start ========= -->
+        <section class="certifications">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Quality You Can Trust</h2>
+                    <p>
+                        Our ISO-certified processes and global accolades reflect our
+                        commitment to excellence at every stage.
+                    </p>
+                </div>
+            </div>
+            <div class="logo-slider">
+                <div class="logo-track">
+                    <!-- First Set -->
+                    <div class="logo-item">
+                        <img src="assets/images/trust-logo.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-logo.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-logo.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-logo.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-logo.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-logo.png" alt="trust-logo">
+                    </div>
+                    <!-- Duplicate -->
+                    <div class="logo-item">
+                        <img src="assets/images/trust-logo.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-logo.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-logo.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-logo.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-logo.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-logo.png" alt="trust-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== Certifications Section End ========= -->
+        <!-- ======== Partner-section Section Start ========= -->
+        <section class="partner-section">
+            <div class="container">
+                <div class="partner-wrapper">
+                    <!-- Content -->
+                    <div class="partner-content">
+                        <div class="section-title">
+                            <h2>Partner with a Pioneer</h2>
+                        </div>
+                        <p>
+                            Running a café, hotel, or distribution business? Partner
+                            with Sulalat for scalable wholesale solutions and trusted
+                            supply.
+                        </p>
+                        <p>
+                            Unlock growth with Saudi Arabia's trusted B2B coffee
+                            solutions provider.
+                        </p>
+                        <a href="#" class="primary-btn">
+                            Explore Business Solutions
+                        </a>
+                    </div>
+                    <!-- Image -->
+                    <div class="partner-image">
+                        <img src="assets/images/partner-image.png" alt="Partner With Sulalat">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== Partner-section Section End ========= -->
+        <!-- ======== coffee-shop Section Start ========= -->
+        <section class="coffee-shop">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Visit Our Coffee Shop</h2>
+                    <p>
+                        Step into our coffee shop and enjoy freshly brewed coffee crafted from premium beans. Whether
+                        you're stopping by for your morning espresso, meeting friends, or looking for a cozy place to
+                        relax, our baristas are ready to serve the perfect cup.
+                    </p>
+                    <p>
+                        Discover our signature drinks, freshly roasted beans, and a warm atmosphere made for every
+                        coffee enthusiast.
+                    </p>
+                </div>
+                <div class="shop-btns">
+                    <a href="#" class="primary-btn">
+                        Visit Our Coffee Shop
+                    </a>
+                    <a href="#" class="secondary-btn">
+                        Find Us on the Map
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper coffeeShopSlider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/images//coffee-shop-slider-1.png" alt="coffee-shop-slider-1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images//coffee-shop-slider-2.png" alt="coffee-shop-slider-2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images//coffee-shop-slider-3.png" alt="coffee-shop-slider-3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images//coffee-shop-slider-4.png" alt="coffee-shop-slider-4">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images//coffee-shop-slider-5.png" alt="coffee-shop-slider-5">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== coffee-shop Section End ========= -->
+        <!-- ======== Certifications Section Start ========= -->
+        <section class="trust-partner">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Trusted Partners</h2>
+                    <p>
+                        We are proud to supply premium products to leading hotels, cafes, and distributors across the
+                        Kingdom.
+                    </p>
+                </div>
+            </div>
+            <div class="logo-slider">
+                <div class="logo-track">
+                    <!-- First Set -->
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-1.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-2.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-3.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-4.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-5.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-6.png" alt="trust-logo">
+                    </div>
+                    <!-- Duplicate -->
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-1.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-2.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-3.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-4.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-5.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-6.png" alt="trust-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== Certifications Section End ========= -->
+        <!-- ======== Blog Section Start ========= -->
+        <section class="blog-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Explore the World of Coffee</h2>
+                    <p>
+                        From our roastery to your cup, learn about the stories,
+                        science, and passion behind every batch.
+                    </p>
+                </div>
+                <div class="blog-grid">
+                    <!-- Featured Blog -->
+                    <article class="featured-blog">
+                        <a href="#" class="blog-image">
+                            <img src="assets/images/blog-section-1.png" alt="blog-section-1">
+                            <div class="blog-overlay">
+                                <h3>Behind the Bar: Crafting Signature Drinks</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Mattis sit phasellus mollis sit aliquam sit nullam neque ultrices.
+                                </p>
+                                <span>05 August 2025</span>
+                            </div>
+                        </a>
+                    </article>
+                    <!-- Blog List -->
+                    <div class="blog-list">
+                        <article class="blog-card">
+                            <div class="blog-content">
+                                <h3>
+                                    <a href="#">
+                                        How to Choose the Right Roast
+                                    </a>
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                                    mattis sit phasellus mollis sit aliquam ...
+                                </p>
+                                <span>05 August 2025</span>
+                            </div>
+                            <a href="#" class="blog-thumb">
+                                <img src="assets/images/blog-section-2.png" alt="blog-section-2">
+                            </a>
+                        </article>
+                        <article class="blog-card">
+                            <div class="blog-content">
+                                <h3>
+                                    <a href="#">
+                                        Specialty Coffee, in the Arab world.
+                                    </a>
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                                    mattis sit phasellus mollis sit aliquam ...
+                                </p>
+                                <span>05 August 2025</span>
+                            </div>
+                            <a href="#" class="blog-thumb">
+                                <img src="assets/images/blog-section-3.png" alt="blog-section-3">
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                <div class="blog-btn">
+                    <a href="#" class="primary-btn">
+                        View All News
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- ======== Blog Section End ========= -->
+         <!-- ======== Certifications Section Start ========= -->
+        <section class="trust-partner">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Where You’ll Find Sulalat</h2>
+                    <p>
+                       Sulalat continues to expand its presence across a growing network of platforms and distribution channels. This section showcases where our brand is currently featured—reflecting our reach, accessibility, and ongoing growth.
+                    </p>
+                </div>
+            </div>
+            <div class="logo-slider">
+                <div class="logo-track">
+                    <!-- First Set -->
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-1.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-2.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-3.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-4.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-5.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-6.png" alt="trust-logo">
+                    </div>
+                    <!-- Duplicate -->
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-1.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-2.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-3.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-4.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-5.png" alt="trust-logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/images/trust-partner-6.png" alt="trust-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======== Certifications Section End ========= -->
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <h4>Sign up for our newsletter to receive updates and exclusive discounts</h4>
+                <div class="footer-email">
+                    <input type="text" placeholder="Email Address">
+                    <button class="primary-btn">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+            <div class="footer-middle">
+
+                <!-- Logo -->
+                <div class="footer-col footer-logo">
+                    <a href="#">
+                        <img src="assets/images/footer-logo.png" alt="Sulalat Logo">
+                    </a>
+                </div>
+
+                <!-- Pages -->
+                <div class="footer-col">
+                    <h5>Pages</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Solutions</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Insights</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Pages -->
+                <div class="footer-col">
+                    <h5>Pages</h5>
+                    <ul>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">FAQ's</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <!-- Account -->
+                <div class="footer-col">
+                    <h5>Pages</h5>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">My Cart</a></li>
+                        <li><a href="#">Track My Order</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-col contact-info">
+                    <h5>Contact Us</h5>
+
+                    <p>Phone: <a href="tel:+966112345678">051 123 4567 89</a></p>
+
+                    <p>Email:
+                        <a href="mailto:info@sulalat.com.sa">
+                            info@sulalat.com.sa
+                        </a>
+                    </p>
+
+                    <p>
+                        2329 Makkah Al Mukarramah Branch Road,
+                        Store #2 Ground floor,
+                        Najm al Qurais Building,
+                        Riyadh 12821
+                    </p>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+
+                <div class="copyright">
+                    © 2026. Sulalat | All Rights Reserved |
+                    <a href="#">Terms and Conditions</a> |
+                    <a href="#">Privacy Policy</a>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-x-line"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    <a href="#"><i class="ri-youtube-fill"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
